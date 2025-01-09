@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +30,9 @@ public class HomePage extends TechnicalComponents{
 	
 	@FindBy(id="login")
 	WebElement btn_Submit;
+	
+	@FindBy(id="login")
+	List<WebElement> btn_Done;
 	
 	
 	public void enterUserDetails(String email, String password) {
