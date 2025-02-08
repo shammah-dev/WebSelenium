@@ -23,21 +23,21 @@ public class TestToGetAllLinksOfPage {
 
 	
 	
-//	driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-//	
-//	int size=driver.findElements(By.tagName("a")).size();
-//	System.out.println(size);
-//	
-//	WebElement footer=driver.findElement(By.id("gf-BIG"));
-//	int footerSize=footer.findElements(By.tagName("a")).size();
-//	System.out.println(footerSize);
-//	
-	driver.get("https://www.icc-cricket.com/tournaments/t20cricketworldcup/matches");
-	String date="\"29 June, 2024\"";
-	WebElement name=driver.findElement(By.xpath("//h3[contains(text(),"+date+")]//ancestor::div[@class='si-tab-card-section']//div[contains(@class,'si-team si-team')]//h3//span[1]"));
+	driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 	
-	String text = name.getText();
-	System.out.println(text);
+	int size=driver.findElements(By.tagName("a")).size();
+	System.out.println(size);
+	
+	WebElement footer=driver.findElement(By.id("gf-BIG"));
+	int footerSize=footer.findElements(By.tagName("a")).size();
+	System.out.println(footerSize);
+	
+//	driver.get("https://www.icc-cricket.com/tournaments/t20cricketworldcup/matches");
+//	String date="\"29 June, 2024\"";
+//	WebElement name=driver.findElement(By.xpath("//h3[contains(text(),"+date+")]//ancestor::div[@class='si-tab-card-section']//div[contains(@class,'si-team si-team')]//h3//span[1]"));
+//	
+//	String text = name.getText();
+//	System.out.println(text);
 	//h3[contains(text(),'29 June, 2024')]//ancestor::div[@class='si-tab-card-section']//div[contains(@class,'si-team si-team')]//h3//span[1]
 	driver.close();
 	

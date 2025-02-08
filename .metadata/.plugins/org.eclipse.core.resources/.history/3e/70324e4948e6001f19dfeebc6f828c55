@@ -1,0 +1,12 @@
+package reusableComponents;
+
+public class Utilities {
+	
+	
+	public static void getProperty(String propertyName) {
+	
+		Proprties prop =new Properties();
+	}
+	
+
+}

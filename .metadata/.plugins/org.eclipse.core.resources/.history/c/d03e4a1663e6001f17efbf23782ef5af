@@ -1,0 +1,16 @@
+package reusableComponents;
+
+import org.openqa.selenium.WebDriver;
+
+import pageObjects.HomePage;
+
+public class BusinessComponents extends TechnicalComponents{
+	
+
+	public void loginOnHomePage() {
+	HomePage home = new HomePage(getDriver());
+	home.enterUserDetails("rahulsheety456@mailinator.com", "Test12345");
+	home.clickSubmit();
+	}
+
+}

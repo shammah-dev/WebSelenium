@@ -1,0 +1,64 @@
+package reusableComponents;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TestSetup {
+	
+	//static WebDriver driver;
+	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>(); 
+	 
+	 public static WebDriver getDriver() {
+			return driver.get();
+		}
+	 
+	
+	@BeforeClass
+	public void beforeClass() throws Exception {
+		driver.set(OpenBrowser());
+	}
+	
+	public static WebDriver OpenBrowser() throws Exception {
+	String BrowserName= Utilities.getProperty("browserName");
+	WebDriver localDriver=null;
+	switch(BrowserName.toLowerCase()) {
+	case "chrome":
+		WebDriverManager.chromedriver().setup();
+		localDriver =new ChromeDriver();
+		localDriver.manage().window().maximize();
+		localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		break;
+	case "firefox":
+		WebDriverManager.firefoxdriver().setup();
+		localDriver =new FirefoxDriver();
+		localDriver.manage().window().maximize();
+		localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		break;
+	case "edge":
+		WebDriverManager.edgedriver().setup();
+		localDriver =new  EdgeDriver();
+		localDriver.manage().window().maximize();
+		localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	case "default":
+		throw new Exception("Browser not configured.");
+
+	}
+	return localDriver;
+	
+	
+	}
+	
+	@AfterClass
+	public  void afterClass() {
+		driver.close();
+	}
+}

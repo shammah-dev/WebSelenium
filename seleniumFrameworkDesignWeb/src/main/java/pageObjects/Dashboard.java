@@ -15,7 +15,6 @@ public class Dashboard extends TechnicalComponents{
 WebDriver driver;
 	
 	public Dashboard(WebDriver driver) {
-		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}

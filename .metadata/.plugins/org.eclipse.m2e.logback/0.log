@@ -1145,3 +1145,141 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2025-01-09 12:09:37,620 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 2025-01-09 12:09:37,620 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 2025-01-09 12:09:37,620 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-09 13:29:32,335 [Framework stop - Equinox Container: b1800db2-d134-4b39-b103-373f6ffbf675] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-01-09 18:51:12,473 [Worker-11: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-01-09 18:54:22,386 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-01-09 18:54:22,399 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:22,402 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-01-09 18:54:22,403 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-01-09 18:54:22,403 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:22,404 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-09 18:54:23,760 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-01-09 18:54:23,760 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:23,761 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-01-09 18:54:23,761 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-01-09 18:54:23,761 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:23,762 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-09 18:54:28,622 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-01-09 18:54:28,622 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:28,622 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-01-09 18:54:28,623 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-01-09 18:54:28,623 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 18:54:28,623 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-09 18:59:40,231 [Worker-22: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 19:02:43,152 [Worker-45: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 19:02:43,159 [Worker-45: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 19:04:45,426 [Worker-41: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 19:04:45,429 [Worker-41: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 19:48:07,477 [Worker-55: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 19:48:07,481 [Worker-55: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 19:53:24,350 [Worker-57: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 19:53:24,362 [Worker-57: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 20:35:45,237 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-01-09 20:35:45,240 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 20:35:45,241 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-01-09 20:35:45,241 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-01-09 20:35:45,241 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-09 20:35:45,243 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-09 20:39:58,073 [Framework stop - Equinox Container: 0a372f7c-5a4c-4434-87ab-ee67edc7393f] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-01-09 21:46:44,709 [Worker-11: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-01-09 21:48:01,658 [Worker-46: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 21:51:36,574 [Worker-23: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 21:51:36,581 [Worker-23: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 21:52:59,364 [Worker-4: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-01-09 21:52:59,368 [Worker-4: Launching TestToGetAllLinksOfPage2] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-01-09 21:54:33,704 [Framework stop - Equinox Container: c0b94366-38b4-4867-981d-69f3de8b762e] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-01-10 11:02:27,009 [Worker-10: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-01-10 11:02:50,458 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-01-10 11:02:50,471 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-10 11:02:50,473 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-01-10 11:02:50,474 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-01-10 11:02:50,474 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-01-10 11:02:50,475 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-01-10 11:17:05,143 [Framework stop - Equinox Container: 098e1d64-24db-4858-9005-cc1f4d921be6] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-02-07 23:09:13,132 [Worker-10: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-02-08 12:27:11,274 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 12:27:11,290 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:27:11,302 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 12:27:11,303 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 12:27:11,303 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:27:11,303 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 12:27:13,690 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 12:27:13,690 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:27:13,691 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 12:27:13,691 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 12:27:13,691 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:27:13,692 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 12:28:27,194 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 12:28:27,198 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:28:27,199 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 12:28:27,200 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 12:28:27,200 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:28:27,200 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 12:33:21,491 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 12:33:21,492 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:33:21,493 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 12:33:21,493 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 12:33:21,493 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 12:33:21,494 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 12:40:44,307 [Framework stop - Equinox Container: ca93538b-982e-4b7d-ad0b-0379b181ba14] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-02-08 12:55:34,089 [Worker-10: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-02-08 15:27:40,365 [Worker-49: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 15:27:59,688 [Worker-53: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 15:27:59,719 [Worker-53: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 15:27:59,738 [Worker-53: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 15:27:59,747 [Worker-53: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 15:29:04,137 [Worker-58: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 15:29:04,142 [Worker-58: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 15:30:55,663 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 15:30:55,665 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 15:30:55,666 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 15:30:55,666 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 15:30:55,666 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 15:30:55,666 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 15:55:16,580 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 15:55:16,581 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 15:55:16,582 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 15:55:16,582 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 15:55:16,582 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 15:55:16,583 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 16:11:40,307 [Framework stop - Equinox Container: cdb2c616-a4ce-402f-99ff-d5ddcb11450b] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
+2025-02-08 16:17:40,283 [Worker-11: Executing the early startup extensions] INFO  c.b.BrowserStackPluginActivator - Starting BrowserStack Plugin...
+2025-02-08 16:35:01,979 [Worker-8: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 16:35:08,251 [Worker-8: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 16:35:41,971 [Worker-22: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 16:39:33,179 [Worker-22: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 16:39:33,182 [Worker-22: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 17:43:31,673 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 17:43:31,677 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 17:43:31,678 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 17:43:31,679 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 17:43:31,680 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 17:43:31,682 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 17:57:39,193 [Worker-61: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 17:57:39,201 [Worker-61: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 17:58:42,105 [Worker-63: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+2025-02-08 17:58:42,111 [Worker-63: Launching StandAloneTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+2025-02-08 18:44:15,389 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 18:44:15,391 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:15,393 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 18:44:15,393 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 18:44:15,393 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:15,394 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 18:44:37,295 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 18:44:37,299 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:37,300 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 18:44:37,300 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 18:44:37,300 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:37,300 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 18:44:51,431 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 18:44:51,432 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:51,433 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 18:44:51,433 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 18:44:51,433 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:44:51,433 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb
+2025-02-08 18:46:46,067 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+2025-02-08 18:46:46,068 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:46:46,068 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/seleniumFrameworkDesignWeb
+2025-02-08 18:46:46,069 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+2025-02-08 18:46:46,069 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+2025-02-08 18:46:46,069 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/seleniumFrameworkDesignWeb

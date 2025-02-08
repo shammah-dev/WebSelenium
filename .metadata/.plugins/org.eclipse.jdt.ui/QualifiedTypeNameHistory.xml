@@ -2,17 +2,11 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
     <fullyQualifiedTypeName name="pageObjects.HomePage"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="reusableComponents.TechnicalComponents"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
@@ -22,4 +16,21 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.json.Json"/>
     <fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
+    <fullyQualifiedTypeName name="groovyjarjarantlr4.v4.codegen.model.Action"/>
+    <fullyQualifiedTypeName name="javax.swing.Action"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="reusableComponents.Utilities"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
+    <fullyQualifiedTypeName name="reusableComponents.TestSetup"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 </qualifiedTypeNameHistroy>

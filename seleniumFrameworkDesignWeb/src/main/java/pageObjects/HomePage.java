@@ -8,15 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import config.TestSetup;
 import reusableComponents.TechnicalComponents;
-import reusableComponents.TestSetup;
 
 public class HomePage extends TechnicalComponents{
 	
 	WebDriver driver;
 	
 	public HomePage(WebDriver driver) {
-		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}

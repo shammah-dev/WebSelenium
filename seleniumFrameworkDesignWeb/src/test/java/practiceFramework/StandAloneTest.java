@@ -1,5 +1,7 @@
 package practiceFramework;
 
+import java.io.IOException;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -13,68 +15,81 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
+import config.TestSetup;
+import config.Utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.HomePage;
-public class StandAloneTest {
+import reusableComponents.BusinessComponents;
+
+public class StandAloneTest extends BusinessComponents {
 	
-	public static void main(String[] args) {
 	
+	//WebDriver driver=TestSetup.OpenBrowser();
+	@Test
+	public void testStandAloneTest() {
+		
 	String productName="ZARA COAT 3";
-	WebDriverManager.chromedriver().setup();
-	WebDriver driver =new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	driver.get("https://rahulshettyacademy.com/client");
-	HomePage home = new HomePage(driver);
-	home.enterUserDetails("rahulsheety456@mailinator.com", "Test12345");
-	home.clickSubmit();
+//	WebDriverManager.chromedriver().setup();
+//	WebDriver driver =new ChromeDriver();
+//	driver.manage().window().maximize();
+//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	navigateTo("https://rahulshettyacademy.com/client");
+	//driver.get("https://rahulshettyacademy.com/client");
+	loginOnHomePage();
 	
+	}
 	
 	
 //	driver.findElement(By.id("userEmail")).sendKeys("rahulsheety456@mailinator.com");
 //	driver.findElement(By.id("userPassword")).sendKeys("Test12345");
 //	driver.findElement(By.id("login")).click();
 	
-	List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
-	
-	WebElement prod=products.stream().filter(product-> 
-	product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);	
-	prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-	
-	WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(5));
-	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("toast-container")));
-	wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
-	driver.findElement(By.xpath("//button[@routerlink='/dashboard/cart']")).click();
-	
-	List<WebElement> cartProducts= driver.findElements(By.xpath("//div[@class='cartSection']//h3"));
-	
-	Boolean match= cartProducts.stream().anyMatch(cartProduct-> cartProduct.getText().equalsIgnoreCase(productName));
-	Assert.assertTrue(match);
-	
-	JavascriptExecutor js = (JavascriptExecutor) driver;
-	js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.cssSelector(".totalRow button")));
-	
-	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".totalRow button")));
-	driver.findElement(By.cssSelector(".totalRow button")).click();
-	
-	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='payment__title']")));
-	driver.findElement(By.xpath("//input[@class='input txt'][1]")).sendKeys("123");
-	driver.findElement(By.xpath("//div[text()='Name on Card ']/following::input[1]")).sendKeys("XYZ");
-	
-	Actions a = new Actions(driver);
-	a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "India").build().perform();
-	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".ta-results"))));
-	driver.findElement(By.xpath("//button[contains(@class,'ta-item')][2]")).click();
-	driver.findElement(By.xpath("//a[@class='btnn action__submit ng-star-inserted']")).click();
-	
-	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
-	
-	String orderMessage= driver.findElement(By.cssSelector("h1")).getText();
-	boolean testResult=orderMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER.");
-	Assert.assertTrue(testResult);
-	driver.close();
-	
-	}
+//	List<WebElement> products = driver.findElements(By.cssSelector(".mb-3"));
+//	
+//	WebElement prod=products.stream().filter(product-> 
+//	product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);	
+//	prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
+//	
+//	WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(5));
+//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("toast-container")));
+//	wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
+//	driver.findElement(By.xpath("//button[@routerlink='/dashboard/cart']")).click();
+//	
+//	List<WebElement> cartProducts= driver.findElements(By.xpath("//div[@class='cartSection']//h3"));
+//	
+//	Boolean match= cartProducts.stream().anyMatch(cartProduct-> cartProduct.getText().equalsIgnoreCase(productName));
+//	Assert.assertTrue(match);
+//	
+//	JavascriptExecutor js = (JavascriptExecutor) driver;
+//	js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.cssSelector(".totalRow button")));
+//	
+//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".totalRow button")));
+//	driver.findElement(By.cssSelector(".totalRow button")).click();
+//	
+//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='payment__title']")));
+//	driver.findElement(By.xpath("//input[@class='input txt'][1]")).sendKeys("123");
+//	driver.findElement(By.xpath("//div[text()='Name on Card ']/following::input[1]")).sendKeys("XYZ");
+//	
+//	Actions a = new Actions(driver);
+//	a.sendKeys(driver.findElement(By.cssSelector("[placeholder='Select Country']")), "India").build().perform();
+//	wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector(".ta-results"))));
+//	driver.findElement(By.xpath("//button[contains(@class,'ta-item')][2]")).click();
+//	driver.findElement(By.xpath("//a[@class='btnn action__submit ng-star-inserted']")).click();
+//	
+//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("h1")));
+//	
+//	String orderMessage= driver.findElement(By.cssSelector("h1")).getText();
+//	boolean testResult=orderMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER.");
+//	Assert.assertTrue(testResult);
+//	driver.close();
+//	
+//	}
+//	
+//	public String getBrowser() throws IOException {
+//		String browserName=Utilities.getProperty("browserName");
+//		return browserName;
+//	}
 
 }

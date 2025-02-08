@@ -1109,3 +1109,773 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY com.browserstack.eclipse 1 0 2025-01-09 12:09:37.620
 !MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 13:29:32.331
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-01-09 18:50:55.013 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-01-09 18:51:04.805
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-01-09 18:51:04.805
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-09 18:51:12.148
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:51:12.464
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:51:12.478
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.383
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.401
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.402
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.403
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.404
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:22.404
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.759
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.760
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.760
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.761
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.761
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:23.762
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.621
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.622
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.622
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.623
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.623
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:54:28.623
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 18:59:40.240
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:02:43.150
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:02:43.161
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:04:45.424
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:04:45.430
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:48:07.476
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:48:07.483
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:53:24.346
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 19:53:24.365
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.234
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.241
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.241
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.241
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.242
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:35:45.242
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 20:39:58.073
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-01-09 21:46:27.828 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-01-09 21:46:36.793
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-01-09 21:46:36.793
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-09 21:46:44.425
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:46:44.694
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:46:44.717
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:48:01.678
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:51:36.572
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:51:36.584
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:52:59.363
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:52:59.368
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-09 21:54:33.702
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-01-10 11:02:08.700 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-01-10 11:02:18.734
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-01-10 11:02:18.734
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-10 11:02:26.772
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:27.007
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:27.012
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.457
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.472
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.473
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.474
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.474
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:02:50.475
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-01-10 11:17:05.139
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-02-07 23:08:51.538 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-02-07 23:09:02.184
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-07 23:09:02.184
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-07 23:09:12.874
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-07 23:09:13.119
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-07 23:09:13.142
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.268
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.301
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.302
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.302
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.303
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:11.303
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.689
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.691
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.691
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.691
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.691
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:27:13.692
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.193
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.199
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.199
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.199
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.200
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:28:27.200
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.489
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.493
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.493
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.493
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.494
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:33:21.494
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:40:44.306
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-02-08 12:55:18.505 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-02-08 12:55:26.858
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-08 12:55:26.858
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-08 12:55:33.820
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:55:34.082
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 12:55:34.096
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:27:40.397
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:27:59.684
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:27:59.723
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:27:59.738
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:27:59.748
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:29:04.135
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:29:04.144
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.662
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.665
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.666
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.666
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.666
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:30:55.666
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.579
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.581
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.582
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.582
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.582
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 15:55:16.583
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY org.eclipse.ui 4 0 2025-02-08 16:11:39.950
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getWorkbenchWindow()" because the return value of "org.eclipse.ui.IViewSite.getPage()" is null
+	at org.eclipse.debug.internal.ui.actions.breakpoints.EnableBreakpointsAction.lambda$0(EnableBreakpointsAction.java:246)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4368)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3991)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2931)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2466)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.restart(OpenWorkspaceAction.java:221)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction$WorkspaceMRUAction.run(OpenWorkspaceAction.java:92)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2025-02-08 16:11:39.985
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.ui.IWorkbenchPage.getWorkbenchWindow()" because the return value of "org.eclipse.ui.IViewSite.getPage()" is null
+	at org.eclipse.debug.internal.ui.actions.breakpoints.EnableBreakpointsAction.lambda$0(EnableBreakpointsAction.java:246)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4368)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3991)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:560)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:367)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:388)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2931)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1123)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1391)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1391)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2466)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.restart(OpenWorkspaceAction.java:221)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction$WorkspaceMRUAction.run(OpenWorkspaceAction.java:92)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:11:40.307
+!MESSAGE Stopping BrowserStack Plugin...
+!SESSION 2025-02-08 16:17:22.974 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/robinpaul/eclipse/workspaces/webSelenium -product org.eclipse.epp.package.java.product -keyring /Users/robinpaul/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2025-02-08 16:17:31.935
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-02-08 16:17:31.935
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-08 16:17:40.124
+!MESSAGE Logback config file: /Users/robinpaul/eclipse/workspaces/webSelenium/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.200.20230523-2106.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:17:40.282
+!MESSAGE Starting BrowserStack Plugin...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:17:40.287
+!MESSAGE BrowserStack Plugin on Startup...
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:35:02.081
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:35:08.251
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:35:41.977
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:39:33.178
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 16:39:33.183
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.testng.eclipse 1 0 2025-02-08 16:39:38.134
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar /Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar /Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar /Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar /Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar /Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar /Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar /Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar /Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar /Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar /Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar /Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar /Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar /Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar /Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar /Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar /Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar /Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar /Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar /Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar /Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar /Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar /Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar /Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61079 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse-1549852459/testng-customsuite.xml
+java -ea -classpath /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar:/Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar:/Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar org.testng.remote.RemoteTestNG -serport 61079 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse-1549852459/testng-customsuite.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.669
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.677
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.678
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.679
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.681
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:43:31.682
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:57:39.190
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:57:39.204
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.testng.eclipse 1 0 2025-02-08 17:57:39.643
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar /Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar /Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar /Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar /Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar /Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar /Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar /Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar /Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar /Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar /Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar /Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar /Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar /Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar /Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar /Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar /Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar /Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar /Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar /Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar /Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar /Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar /Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar /Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50491 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse-932225897/testng-customsuite.xml
+java -ea -classpath /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar:/Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar:/Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar org.testng.remote.RemoteTestNG -serport 50491 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse-932225897/testng-customsuite.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:58:42.098
+!MESSAGE The previous launch removed.
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 17:58:42.112
+!MESSAGE The environment variables for the launch configuration are {}
+
+!ENTRY org.testng.eclipse 1 0 2025-02-08 17:58:42.499
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar /Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar /Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar /Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar /Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar /Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar /Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar /Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar /Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar /Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar /Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar /Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar /Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar /Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar /Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar /Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar /Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar /Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar /Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar /Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar /Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar /Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar /Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar /Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar /Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar /Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar /Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar /Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar /Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar /Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar /Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar /Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar /Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar /Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar /Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 60246 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse--275977595/testng-customsuite.xml
+java -ea -classpath /Users/robinpaul/.eclipse/org.eclipse.platform_4.28.0_1231987628_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/508/0/.cp/lib/testng-remote.jar:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/test-classes:/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/target/classes:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-java/4.22.0/selenium-java-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-api/4.22.0/selenium-api-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.22.0/selenium-chrome-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.22.0/selenium-chromium-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-json/4.22.0/selenium-json-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.22.0/selenium-manager-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.22.0/selenium-devtools-v124-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.22.0/selenium-devtools-v125-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.22.0/selenium-devtools-v126-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.22.0/selenium-devtools-v85-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.22.0/selenium-edge-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.22.0/selenium-firefox-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-http/4.22.0/selenium-http-4.22.0.jar:/Users/robinpaul/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.22.0/selenium-ie-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.22.0/selenium-remote-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/robinpaul/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/robinpaul/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/robinpaul/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/robinpaul/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/robinpaul/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api/1.39.0/opentelemetry-api-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-context/1.39.0/opentelemetry-context-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.39.0/opentelemetry-exporter-logging-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.39.0/opentelemetry-sdk-common-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.39.0/opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.39.0/opentelemetry-sdk-extension-autoconfigure-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.39.0-alpha/opentelemetry-api-incubator-1.39.0-alpha.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.39.0/opentelemetry-sdk-trace-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.39.0/opentelemetry-sdk-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.39.0/opentelemetry-sdk-metrics-1.39.0.jar:/Users/robinpaul/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.39.0/opentelemetry-sdk-logs-1.39.0.jar:/Users/robinpaul/.m2/repository/net/bytebuddy/byte-buddy/1.14.17/byte-buddy-1.14.17.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-os/4.22.0/selenium-os-4.22.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.22.0/selenium-safari-driver-4.22.0.jar:/Users/robinpaul/.m2/repository/org/seleniumhq/selenium/selenium-support/4.22.0/selenium-support-4.22.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/robinpaul/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/robinpaul/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/robinpaul/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/robinpaul/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/robinpaul/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/robinpaul/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/robinpaul/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/robinpaul/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/robinpaul/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/robinpaul/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/robinpaul/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/robinpaul/.m2/repository/io/github/bonigarcia/webdrivermanager/5.9.2/webdrivermanager-5.9.2.jar:/Users/robinpaul/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/robinpaul/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java/3.4.0/docker-java-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-core/3.4.0/docker-java-core-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-api/3.4.0/docker-java-api-3.4.0.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/robinpaul/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/robinpaul/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.4.0/docker-java-transport-httpclient5-3.4.0.jar:/Users/robinpaul/.m2/repository/com/github/docker-java/docker-java-transport/3.4.0/docker-java-transport-3.4.0.jar:/Users/robinpaul/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/robinpaul/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar:/Users/robinpaul/.m2/repository/org/apache/commons/commons-compress/1.26.2/commons-compress-1.26.2.jar:/Users/robinpaul/.m2/repository/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/robinpaul/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/robinpaul/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/robinpaul/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/robinpaul/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/robinpaul/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar org.testng.remote.RemoteTestNG -serport 60246 -protocol json -d /Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/test-output /var/folders/8r/fvq7r8251456xthmlk1w3pjw0000gn/T/testng-eclipse--275977595/testng-customsuite.xml
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.386
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.392
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.393
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.393
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.393
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:15.394
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.291
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.299
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.300
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.300
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.300
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:37.300
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.430
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.432
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.433
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.433
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.433
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:44:51.433
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.064
+!MESSAGE Testing : isBrowserStackEnabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.068
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.068
+!MESSAGE Validation Result isBrowserStackEnabled : true CurrentProject : P/seleniumFrameworkDesignWeb
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.068
+!MESSAGE Testing : isBrowserStackDisabled
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.069
+!MESSAGE Prefs Keys  - []
+
+!ENTRY com.browserstack.eclipse 1 0 2025-02-08 18:46:46.069
+!MESSAGE Validation Result isBrowserStackDisabled : false CurrentProject : P/seleniumFrameworkDesignWeb

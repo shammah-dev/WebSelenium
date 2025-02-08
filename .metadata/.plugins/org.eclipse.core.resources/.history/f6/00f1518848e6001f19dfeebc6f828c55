@@ -1,0 +1,18 @@
+package reusableComponents;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Utilities {
+	
+	
+	public static void getProperty(String propertyName) {
+	
+		Properties prop =new Properties();
+		FileInputStream file=new FileInputStream("/Users/robinpaul/eclipse/workspaces/webSelenium/seleniumFrameworkDesignWeb/config.properties");
+			
+		prop.load(null);
+	}
+	
+
+}

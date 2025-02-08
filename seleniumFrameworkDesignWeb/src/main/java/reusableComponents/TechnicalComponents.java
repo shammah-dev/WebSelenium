@@ -8,24 +8,23 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import config.TestSetup;
+
 public class TechnicalComponents extends TestSetup{
 	
-	
-	WebDriver driver;
-	
-	public TechnicalComponents(WebDriver driver) {
-		this.driver=driver;
-	}
 
-	WebDriverWait wait= new WebDriverWait(driver,Duration.ofSeconds(5));
+	WebDriverWait wait= new WebDriverWait(getDriver(),Duration.ofSeconds(5));
 
-	public void waitTill(WebElement element, String waitType) {
+	public void waitTill(WebElement element, String waitType) throws Exception {
 		switch (waitType.toLowerCase()) {
 		case "visible":
 		    wait.until(ExpectedConditions.visibilityOf(element));
 		    break;
 		case "invisible":
 			wait.until(ExpectedConditions.invisibilityOf(element));
+			break;
+		default:
+			throw new Exception("wait not configured");
 		    
 		}
 	}
