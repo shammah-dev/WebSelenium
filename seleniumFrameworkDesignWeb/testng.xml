@@ -3,14 +3,15 @@
 <suite parallel="tests" name="Suite">
 	
   <test thread-count="5" name="Links of Page">
-	  <parameter name="browserName" value="remotefirefox"></parameter>
+	  <parameter name="browserName" value="remotechrome"></parameter>  
+	  
     <classes>
       <class name="practiceFramework.TestToGetAllLinksOfPage"/>
       
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="StandAlone Test">
-	  <parameter name="browserName" value="remotechrome"></parameter>  
+	 <parameter name="browserName" value="remotefirefox"></parameter>
     <classes>
        <class name="practiceFramework.StandAloneTest"/>    
     </classes>
