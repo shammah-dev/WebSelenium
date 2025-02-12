@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Suite">
+	
   <test thread-count="5" name="Links of Page">
+	  <parameter name="browserName" value="remotefirefox"></parameter>
     <classes>
       <class name="practiceFramework.TestToGetAllLinksOfPage"/>
       
     </classes>
   </test> <!-- Test -->
   <test thread-count="5" name="StandAlone Test">
+	  <parameter name="browserName" value="remotechrome"></parameter>  
     <classes>
        <class name="practiceFramework.StandAloneTest"/>    
     </classes>
